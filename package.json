@@ -1,0 +1,26 @@
+{
+    "name": "juniorcoders-theme",
+    "displayName": "JuniorCoders Theme",
+    "description": "",
+    "version": "1.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "publisher": "JuniorCoder",
+    "categories": [
+        "Themes"
+    ],
+    "icon": "theme.ico",
+    "repository": {
+        "url": "https://github.com/juniorcoder2008/theme"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "JuniorCoder",
+                "uiTheme": "vs-dark",
+                "path": "./themes/JuniorCoder-color-theme.json"
+            }
+        ]
+    }
+}
